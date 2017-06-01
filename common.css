@@ -1,0 +1,33 @@
+ .passages-list {
+     overflow: overlay;
+ }
+ 
+ html,
+ body,
+ .container-fluid,
+ .row {
+     height: 100%;
+ }
+ 
+ nav.sidebar,
+ .passages-list {
+     -webkit-transition: margin 200ms ease-out;
+     -moz-transition: margin 200ms ease-out;
+     -o-transition: margin 200ms ease-out;
+     transition: margin 200ms ease-out;
+ }
+ 
+ .passages-list {
+     padding: 10px 10px 0 10px;
+     align-content: center;
+ }
+
+
+div.main-content {
+  padding: 10px 10px 0 10px;
+  align-content: center;
+}
+
+div.col-sm-2{
+  padding:0;
+}

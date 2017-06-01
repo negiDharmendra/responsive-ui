@@ -1,0 +1,36 @@
+
+    
+    #passage {
+        background-color: rgba(211, 211, 211, 0.18);
+        height: 100px;
+        border-radius: 20px;
+        margin-bottom: 20px
+    }
+    
+    #passage:hover {
+        background-color: rgb(211, 211, 211);
+    }
+    
+    .passage-content {
+        display: inline-block;
+        padding-top: 20px
+    }
+    
+    .passage-content span {
+        display: inline-block;
+        padding-right: 20px
+    }
+
+  
+    
+   
+    
+    .passage {
+        background-color: #bcc1ca;
+        margin: 0 5px 10px 10px;
+        max-height: 200px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    
