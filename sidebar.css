@@ -22,6 +22,8 @@
      nav.sidebar.navbar.sidebar>.container .navbar-brand,
      .navbar>.container-fluid .navbar-brand {
          margin-left: 0px;
+         height: 50px;
+         padding: 0px;
      }
      /*Center Brand*/
      nav.sidebar .navbar-brand,
@@ -108,6 +110,12 @@
      }
  }
  
+ a.navbar-brand {
+     height: inherit;
+     padding: 0px;
+     color: black;
+ }
+ 
  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover,
  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
      color: #CCC;
@@ -125,7 +133,34 @@
  .sidebar {
      box-shadow: 0px 3px 7px #848484;
  }
+
+ .navbar_section{
+    color: black;
+    font-size: 18px;
+ }
+ 
+ .sidebar .sub_menu li a {
+     padding-left: 50px;
+ }
+ 
+ .sidebar .secion {
+     padding: 15px;
+ }
  
  .icon-bar {
      background-color: #000000;
+ }
+ 
+ .passages_category li {
+     padding: 2px;
+     margin: 0 0 5px 0;
+     list-style-type: none;
+ }
+ 
+ .profile_category hr {
+     margin: 0 0 4px 0;
+ }
+ 
+ .passages_category li a {
+     text-decoration: none;
  }
