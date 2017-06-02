@@ -23,10 +23,10 @@
       color: gray;
     }
     .passage .title .actions .glyphicon-edit {
-      left: 80%;
+      left: 74%;
     }
     .passage .title .actions .glyphicon-trash {
-      left: 81%;
+      left: 76%;
     }
     .passage .title,
     .passage .title > span,
@@ -79,6 +79,14 @@
     }
   }
   
+  @media (min-width: 500px){
+    .passage .title .actions .glyphicon-edit {
+      left: 86%;
+    }
+    .passage .title .actions .glyphicon-trash {
+      left: 88%;
+    }
+  }
   @media (min-width: 768px) {
     .passage_container .col-md-5 {
       width: 49%;
@@ -98,10 +106,10 @@
       color: gray;
     }
     .passage .title .actions .glyphicon-edit {
-      left: 80%;
+      left: 85%;
     }
     .passage .title .actions .glyphicon-trash {
-      left: 81%;
+      left: 87%;
     }
     .passage .title,
     .passage .title > span,
@@ -117,7 +125,14 @@
       margin-left: 7%;
     }
   }
-  
+  @media (min-width: 1000px) {
+    .passage .title .actions .glyphicon-edit {
+      left: 88%;
+    }
+    .passage .title .actions .glyphicon-trash {
+      left: 90%;
+    }
+  }
   @media (min-width: 1200px) {
     .passage_container .col-md-5 {
       width: 49%;
@@ -137,10 +152,10 @@
       color: gray;
     }
     .passage .title .actions .glyphicon-edit {
-      left: 80%;
+      left: 91%;
     }
     .passage .title .actions .glyphicon-trash {
-      left: 81%;
+      left: 93%;
     }
     .passage .title,
     .passage .title > span,
