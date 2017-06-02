@@ -1,0 +1,37 @@
+.row.navbar_top {
+  height: 50px;
+  background-color: #00bcd4;
+}
+.navbar-header{
+  float: left;
+}
+.navbar-brand h2 {
+  color: white;
+  padding: 5px 0 0 20px;
+  line-height: 4px;
+}
+
+.profile_section{
+  line-height: 60px;
+  margin-right: 20px;
+}
+.profile_section .user_icon{
+  line-height: 55px;
+  padding-left: 10px;
+}
+
+.profile_section a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.profile_section .dropdown-menu{
+  top:48px;
+  left: 0px;
+}
+.profile_section a:hover{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}

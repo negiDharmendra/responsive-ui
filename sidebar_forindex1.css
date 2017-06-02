@@ -2,56 +2,25 @@
    border-radius: 0px;
  }
  
- @media (min-width: 768px) {
-   div.col-sm-2,
-   div.col-sm-10 {
-     height: 100%;
+ @media (min-width: 400px) {
+   .sidebar,
+   .sidebar_items {
+     /*width: 100%;*/
    }
+ }
+ 
+ @media (min-width: 768px) {
    .main_body {
      position: absolute;
      margin-left: 200px;
      float: right;
    }
-   nav.sidebar:hover + .main_body {
-     margin-left: 200px;
-   }
-   nav.sidebar.navbar.sidebar>.container .navbar-brand,
-   .navbar>.container-fluid .navbar-brand {
-     margin-left: 0px;
-     height: 50px;
-     padding: 0px;
-   }
-   nav.sidebar .navbar-brand,
-   nav.sidebar .navbar-header {
-     text-align: center;
-     width: 100%;
-     margin-left: 0px;
-   }
-   nav.sidebar a {
-     padding-right: 13px;
-   }
    nav.sidebar .navbar-nav > li:first-child {
      border-top: 1px #e5e5e5 solid;
-   }
-   nav.sidebar .navbar-nav > li {
-     border-bottom: 1px #e5e5e5 solid;
-   }
-   nav.sidebar .navbar-nav .open .dropdown-menu {
-     position: static;
-     float: none;
-     width: auto;
-     margin-top: 0;
-     background-color: transparent;
-     border: 0;
-     -webkit-box-shadow: none;
-     box-shadow: none;
    }
    nav.sidebar .navbar-collapse,
    nav.sidebar .container-fluid {
      padding: 0 0px 0 0px;
-   }
-   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-     color: #777;
    }
    nav.sidebar {
      width: 200px;
@@ -74,11 +43,10 @@
  @media (min-width: 1330px) {
    div.col-sm-2,
    div.col-sm-2 {
-     height: 100%;
+     height: calc(100% - 50px);
    }
    .main_body {
      width: calc(100% - 200px);
-     margin-left: 200px;
    }
    nav.sidebar {
      margin-left: 0px;
@@ -109,29 +77,15 @@
    opacity: 1;
  }
  
- .sidebar {
-   box-shadow: 0px 3px 7px #848484;
- }
- 
- .navbar_section {
-   color: black;
-   font-size: 18px;
+ nav.sidebar .navbar-nav li {
+   border-bottom: none;
  }
  
  .sidebar .sub_menu li a {
-   padding-left: 50px;
- }
- 
- .sidebar .secion {
-   padding: 15px;
- }
- 
- .icon-bar {
-   background-color: #000000;
+   padding: 5px 0 5px 50px;
  }
  
  .passages_category li {
-   padding: 2px;
    margin: 0 0 5px 0;
    list-style-type: none;
  }
@@ -142,4 +96,12 @@
  
  .passages_category li a {
    text-decoration: none;
+ }
+ 
+ .sidebar .secion {
+   padding: 15px;
+ }
+ 
+ .icon-bar {
+   background-color: #000000;
  }
